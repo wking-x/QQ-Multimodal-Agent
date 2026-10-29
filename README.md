@@ -50,12 +50,11 @@
 
 ```mermaid
 flowchart LR
-    A[📱 手机 QQ] <--> B[腾讯服务器]
-    B <--> C[QQNT 客户端 / 你的电脑]
-    C -.->|注入| D[NapCat 协议端]
-    D -->|OneBot11 WebSocket| E[bridge.mjs / 你的 100 行]
-    E -->|HTTPS| F[DeepSeek API]
-```
+    A["手机 QQ"] --> B["腾讯服务器"]
+    B --> C["QQNT 客户端（你的电脑）"]
+    C -->|注入| D["NapCat 协议端"]
+    D -->|OneBot11 WebSocket| E["bridge.mjs（你的 100 行）"]
+    E -->|HTTPS| F["DeepSeek API"]
 
 > [!IMPORTANT]
 > **你相当于是在自己电脑上跑一个真的 QQ，再把它的话转发出来。**
