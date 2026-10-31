@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1836" height="796" alt="image" src="https://github.com/user-attachments/assets/1d49e982-39e0-4e2f-a763-b95c4e58fd1f" /><div align="center">
 
 # 🐋 把 DeepSeek 接进 QQ
 
@@ -208,6 +208,8 @@ npm start
 ---
 
 ## 故障排查
+> 📖 更完整的一版（22 条）见 **[PITFALLS.md](./PITFALLS.md)**
+
 
 <details>
 <summary><b>① 注入后 QQ 一闪就退</b></summary>
